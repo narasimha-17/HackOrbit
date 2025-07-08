@@ -3,18 +3,18 @@ import google.generativeai as genai
 import speech_recognition as sr
 import io
 
-# ✅ Google API Key setup
+#  Google API Key setup
 genai.configure(api_key="AIzaSyDCToalcS0jGdZyNiFxRnJOnDkoWCYd6zA")
 
-# ✅ Streamlit layout
+#  Streamlit layout
 st.set_page_config(page_title="AI Medical Diagnosis", layout="centered")
 st.title("🧠 AI Medical Diagnosis with Image + Voice")
 st.markdown("Upload your **medical image** and describe your **symptoms by voice** for AI-based diagnosis.")
 
-# ✅ Upload image
+#  Upload image
 uploaded_image = st.file_uploader("Upload Medical Image (JPG, PNG)", type=["jpg", "jpeg", "png"])
 
-# ✅ Voice input
+#  Voice input
 record_voice = st.button("🎤 Record Symptoms")
 
 voice_text = ""
@@ -32,7 +32,7 @@ if record_voice:
     except sr.RequestError:
         st.error("Speech recognition service failed.")
 
-# ✅ Generate diagnosis
+# Generate diagnosis
 if st.button("🧪 Run Diagnosis") and uploaded_image:
     image_data = uploaded_image.read()
 
