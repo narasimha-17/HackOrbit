@@ -4,7 +4,7 @@ import speech_recognition as sr
 import io
 
 #  Google API Key setup
-genai.configure(api_key="AIzaSyDCToalcS0jGdZyNiFxRnJOnDkoWCYd6zA")
+genai.configure(api_key="AIzaSyDCToalcS0jGdZyNiFxRnJOnDkoWCYd6z")
 
 #  Streamlit layout
 st.set_page_config(page_title="AI Medical Diagnosis", layout="centered")
