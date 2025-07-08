@@ -16,7 +16,7 @@ uploaded_image = st.file_uploader("Upload Medical Image (JPG, PNG)", type=["jpg"
 
 #  Voice input
 record_voice = st.button("🎤 Record Symptoms")
-
+#voice input for taking voice record
 voice_text = ""
 if record_voice:
     recognizer = sr.Recognizer()
