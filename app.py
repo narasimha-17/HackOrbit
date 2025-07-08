@@ -10,6 +10,7 @@ genai.configure(api_key="AIzaSyDCToalcS0jGdZyNiFxRnJOnDkoWCYd6zA")
 st.set_page_config(page_title="AI Medical Diagnosis", layout="centered")
 st.title("🧠 AI Medical Diagnosis with Image + Voice")
 st.markdown("Upload your **medical image** and describe your **symptoms by voice** for AI-based diagnosis.")
+#streamlit interface
 
 #  Upload image
 uploaded_image = st.file_uploader("Upload Medical Image (JPG, PNG)", type=["jpg", "jpeg", "png"])
