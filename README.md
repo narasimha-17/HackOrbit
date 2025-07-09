@@ -10,3 +10,10 @@ Core Features
 
 Problem It Solves
 Many patients and rural health workers struggle to understand medical scans or explain symptoms clearly — leading to delayed diagnosis, misinterpretation, and overburdened doctors. Our tool bridges this communication and diagnostic gap using AI — enhancing clarity, efficiency, and reach of healthcare.
+
+Use Cases
+• Rural Telemedicine: Patients with limited access to doctors can self-submit images + voice input.
+• Clinical Decision Support: Helps junior doctors or medical interns in image-based diagnostics.
+• Medical Education: Mind maps assist in learning differential diagnoses and pathologies.
+• Home Healthcare: Elderly users can use speech input to get AI-generated advice on conditions.
+
