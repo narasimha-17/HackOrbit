@@ -17,3 +17,4 @@ Use Cases
 • Medical Education: Mind maps assist in learning differential diagnoses and pathologies.
 • Home Healthcare: Elderly users can use speech input to get AI-generated advice on conditions.
 
+demo video link : https://drive.google.com/file/d/1MdevHWEnjfE5tER8RFleZdryB_TciQYz/view?usp=sharing
